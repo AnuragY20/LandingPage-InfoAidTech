@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+#nav .menu{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#nav{
+    height: 110px;
+    width: 100%;
+    padding: 0 50px;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-prt2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: yellow; */
+    width: 50%;
+}
+#nav h1{
+    cursor: pointer;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+#nav>i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+#nav h5{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+#nav img{
+    cursor: pointer;
+    height: 80px;
+}
+.line{
+    height: 1.5px;
+    width: 60px;
+    background: red;
+}
+
+
+
+#content{
+    height: calc(100% - 110px);
+    width: 100%;
+    display: flex;
+
+}
+#left{
+    width: 35%;
+    height: 100%;
+    /* background: red; */
+    padding: 100px 10px 100px 100px;
+}
+#left h1{
+    font-size: 50px;
+    line-height: 45px;
+    margin-bottom: 50px;
+}
+#left h1 span{
+    color: red;
+    font-weight: 500;
+}
+#left p{
+    font-size: 15px;
+    width: 75%;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+#left button{
+    cursor: pointer;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 15px;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#left .btn-heart{
+    display: flex;
+    align-items: center;
+}
+#left .btn-heart .ri-heart-line{
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 20px;
+    color: red;
+}
+#left .btn-heart .ri-heart-line:hover{
+    transition: all ease 0.5s;
+    font-size: 25px;
+}
+#left button i{
+    margin-right: 10px;
+}
+#mid{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    /* background: black; */
+    display: flex;
+    justify-content: center;
+}
+#mid-bg{
+    height: 77%;
+    margin-top: 18px;
+    width: 80%;
+    background-image: url(coca-cola-bg.jpg);
+    background-position: 20%;
+    background-size: cover;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 138px;
+    filter: blur(2px);
+}
+#mid img{
+    position: absolute;
+    top: 0;
+    left: 30%;
+    height: 550px;
+}
+#right{
+    display: flex;
+    flex-direction: column;
+    transform: translate(7% , 50%);
+    width: 35%;
+    height: 100%;
+    padding: 0px 30px;
+    
+    /* background: red; */
+}
+#right .elems{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    margin-bottom: 15px;
+}
+.elems2 p{
+    margin-top: 10px;
+    width: 75%;
+    font-size: 13px;
+}
+.copyright{
+    position: absolute;
+    bottom: 20px;
+
+    left: 40%;
+    color: white;
+}
+.copyright h3{
+    text-align: center;
+
+}
+.anurag{
+    position: absolute;
+    display: flex;
+    border: 3px solid rgb(255, 0, 0);
+    align-items: center;
+    width: 220px;
+    left: 58%;
+    top: 35%;
+    padding:3px 0;
+    border-radius: 45px;
+    background-color: rgb(255, 255, 255);
+}
+.anurag .bg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 5px;
+    background-image: url(profile-pic-anurag.png);
+    background-size: 125%;
+    background-position: center;
+    filter: contrast(10px);
+}
+.txt{
+    display: flex;
+    flex-direction:column ;
+    margin-left: 10px;
+}
+.txt h4{
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: black;
+    line-height: 18px;
+}
+.txt h6{
+    color: red;
+    font-size: 25x;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
